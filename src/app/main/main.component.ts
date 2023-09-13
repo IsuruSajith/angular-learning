@@ -8,5 +8,5 @@ import {Component} from "@angular/core";
 })
 
 export class MainComponent {
-
+mainTitle = 'this is main component title';
 }
