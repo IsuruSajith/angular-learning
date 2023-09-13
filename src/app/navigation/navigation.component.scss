@@ -1,30 +1,27 @@
 header {
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
-  padding: 10px 0; /* Padding (top and bottom) */
-  text-align: center; /* Center-align text */
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
 }
 
-/* CSS for the navigation menu */
 nav {
-  background-color: #444; /* Background color */
-  padding: 10px 0; /* Padding (top and bottom) */
-  text-align: center; /* Center-align text */
+  background-color: #444;
+  padding: 10px 0;
+  text-align: center;
 }
 
-/* CSS for the navigation menu links */
+
 nav a {
-  color: #fff; /* Text color */
-  text-decoration: none; /* Remove underlines from links */
-  margin: 0 15px; /* Margin between links */
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
-/* CSS for hover effect on navigation links */
 nav a:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
 
-/* CSS for the header title */
 h1 {
-  margin: 0; /* Remove default margin */
+  margin: 0;
 }
