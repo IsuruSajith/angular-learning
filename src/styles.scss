@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-* {
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+
+
+* {font-family: 'Mooli', sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
