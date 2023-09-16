@@ -9,5 +9,5 @@ export class TestComponent {
   name: string = 'iPhone 15';
   price: number = 999;
   color: string = 'black'
-  discountedPrice: string=800;
+  discountedPrice: number=800;
 }
