@@ -19,6 +19,6 @@ export class TestComponent {
   }
 
   getDiscountedPercentage() {
-    return (this.price - this.product.discount)*100;
+    return ((this.price - this.product.discount)/this.price)*100;
   }
 }
