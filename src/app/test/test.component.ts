@@ -17,4 +17,8 @@ export class TestComponent {
     color: 'red',
     discount: 200
   }
+
+  getDiscountedPercentage() {
+
+  }
 }
