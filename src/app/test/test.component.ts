@@ -10,6 +10,7 @@ export class TestComponent {
   price: number = 999;
   color: string = 'black'
   discountedPrice: number=800;
+  customerName:string='Isuru Sajith';
 
   product = {
     phone : 'iphone',
