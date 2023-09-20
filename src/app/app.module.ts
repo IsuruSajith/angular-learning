@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
 import { SearchComponent } from './product-list/search/search.component';
+import {FormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SearchComponent } from './product-list/search/search.component';
     AppComponent,MainComponent, NavigationComponent, ContentComponent, TestComponent, HeaderComponent, TopMenuComponent, MainMenuComponent, SearchComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
