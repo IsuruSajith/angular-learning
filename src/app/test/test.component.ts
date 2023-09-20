@@ -24,4 +24,8 @@ export class TestComponent {
   getDiscountedPercentage() {
     return ((this.price - this.product.discount)/this.price)*100;
   }
+
+  getName(event:any) {
+    this.customerName= event.target.value;
+  }
 }

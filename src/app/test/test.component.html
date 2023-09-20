@@ -12,4 +12,6 @@
 <p>{{product.inStock>0?'only '+product.inStock+' left':'out of stock'}}</p>
 <p>discount% : {{getDiscountedPercentage()+'%'}}</p>
 <button [disabled]="product.inStock==0">But Now</button>
-<input bind-value="customerName" type="text" [attr.area-hidden]="true">
+<input bind-value="customerName" (input)="getName($event)">
+<br>
+<p>customer name: {{customerName}}</p>
