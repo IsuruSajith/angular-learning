@@ -36,6 +36,7 @@ export class TestComponent {
   }
 
   increaseValue() {
+    if (this.addQty!=this.product.inStock)
     this.addQty++;
   }
 }
