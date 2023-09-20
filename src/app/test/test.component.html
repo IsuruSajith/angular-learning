@@ -9,4 +9,6 @@
 <p>price : {{'$'+product.price}}</p>
 <p>color : {{product.color}}</p>
 <!--<p>discountedPrice : {{'$'+price - product.discount}}</p>-->
+<p>{{product.inStock>0?'only '+product.inStock+' left':'out of stock'}}</p>
 <p>discount% : {{getDiscountedPercentage()+'%'}}</p>
+<button [disabled]="product.inStock==0">But Now</button>
