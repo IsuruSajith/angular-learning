@@ -11,6 +11,8 @@ export class TestComponent {
   color: string = 'black'
   discountedPrice: number=800;
   customerName:string='Isuru Sajith';
+  addQty:number=0;
+
 
   product = {
     phone : 'iphone',
@@ -27,5 +29,13 @@ export class TestComponent {
 
   getName(event:any) {
     this.customerName= event.target.value;
+  }
+
+  decreaseValue() {
+    this.addQty==0?0:this.addQty--;
+  }
+
+  increaseValue() {
+    this.addQty++;
   }
 }
