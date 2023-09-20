@@ -16,7 +16,7 @@ export class TestComponent {
     price: 1500,
     color: 'red',
     discount: 200,
-    inStock:0,
+    inStock:10,
     pImage: 'assets/images/someimage.jpg'
   }
 
