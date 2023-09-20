@@ -1,7 +1,7 @@
 <div class="container">
 <div class="input-group">
   <div class="form-outline">
-    <input type="search" id="form1" class="form-control" />
+    <input type="search" id="form1" class="form-control" [(ngModel)]="searchText"/>
     <label class="form-label" for="form1">Search</label>
   </div>
   <button type="button" class="btn btn-primary">
@@ -9,3 +9,4 @@
   </button>
 </div>
 </div>
+<div><p><strong>search results for : </strong>{{searchText}}</p></div>
