@@ -15,7 +15,8 @@ export class TestComponent {
     phone : 'iphone',
     price: 1500,
     color: 'red',
-    discount: 200
+    discount: 200,
+    pImage: 'assets/images/someimage.jpg'
   }
 
   getDiscountedPercentage() {
