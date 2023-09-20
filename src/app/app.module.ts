@@ -8,11 +8,12 @@ import { TestComponent } from './test/test.component';
 import { HeaderComponent } from './header/header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
+import { SearchComponent } from './product-list/search/search.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,MainComponent, NavigationComponent, ContentComponent, TestComponent, HeaderComponent, TopMenuComponent, MainMenuComponent
+    AppComponent,MainComponent, NavigationComponent, ContentComponent, TestComponent, HeaderComponent, TopMenuComponent, MainMenuComponent, SearchComponent
   ],
   imports: [
     BrowserModule
