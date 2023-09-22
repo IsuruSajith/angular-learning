@@ -15,6 +15,6 @@
   <p>ng for loop value is : {{item}}</p>
 </div>
 <hr>
-<div *ngFor="let brand of searchItems">
+<div *ngFor="let brand of searchItems" [ngStyle]="{color: 'red'}">
   <p>available mobile phone brands are : <strong>{{brand}}</strong></p>
 </div>
