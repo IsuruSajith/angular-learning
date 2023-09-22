@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.scss']
 })
 export class SearchComponent {
-  searchText: any='';
+  searchText: any=''; // two way data binded
 
-  /*updateSearch(event: any) {
-    this.searchText=event.target.value;
-  }*/
+  searchItems: string[]=['iphone','redmi','huawei','oppo','nokia','samsung']
+
 }
