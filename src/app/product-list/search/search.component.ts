@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class SearchComponent {
   searchText: any='';
 
-  updateSearch(event: any) {
+  /*updateSearch(event: any) {
     this.searchText=event.target.value;
-  }
+  }*/
 }
