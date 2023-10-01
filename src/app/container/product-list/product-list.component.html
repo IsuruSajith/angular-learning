@@ -1,9 +1,11 @@
 <div class="container">
-  <div *ngFor="let prod of product" class="product-des">
+  <div *ngFor="let prod of product, let i = index" class="product-des">
     <div>
       <div>
         <i aria-hidden="true"></i>
+        <i>{{i}}</i>
       </div>
+
 
     </div>
     <div>
