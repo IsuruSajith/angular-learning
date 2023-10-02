@@ -52,6 +52,21 @@ product = [{
     items_left:3,
     imageURL: "https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?cs=srgb&dl=pexels-pixabay-267301.jpg&fm=jpg",
 
+  },
+  {
+    id : 3,
+    name:" office shoe",
+    description:"conditions apply",
+    brand:"nike",
+    gender:"men",
+    category: "Office",
+    size: [38, 39, 40, 41, 42],
+    color:["white","black","green","blue"],
+    price:150,
+    is_in_inventory:true,
+    items_left:3,
+    imageURL: "https://image.shutterstock.com/image-photo/stability-cushion-running-shoes-new-260nw-1958445436.jpg",
+
   }
 
 ]
