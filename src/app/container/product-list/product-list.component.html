@@ -1,5 +1,13 @@
 <div>
-  <div>
+  <div *ngFor="let prod of product">
+    <div>
+      <div>
+        <i aria-hidden="true"></i>
+      </div>
 
+    </div>
+    <div>
+      <img [src]="prod.imageURL">
+    </div>
   </div>
 </div>
