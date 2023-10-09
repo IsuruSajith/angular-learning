@@ -7,7 +7,7 @@
     <input class="searchInput" type="text" placeholder='focus here to search' [(ngModel)]="searchText">
     <i class="searchInputIcon fa fa-search"></i>
     <div>
-      <p><strong>Search Text : </strong>{{searchText}}</p>
+      <p *ngIf="searchText != ''"> <strong>Search Text : </strong>{{searchText}}</p>
     </div>
 
   </div>
