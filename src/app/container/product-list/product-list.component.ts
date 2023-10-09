@@ -18,7 +18,7 @@ product = [{
   price:160,
   is_in_inventory:true,
   items_left:3,
-  imageURL: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ftrainers-shoes&psig=AOvVaw3a1C5p1B3Jrc7FLXN4UkRw&ust=1696907818273000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiFrK-A6IEDFQAAAAAdAAAAABAE",
+  imageURL: "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU=",
 
 }]
 }
