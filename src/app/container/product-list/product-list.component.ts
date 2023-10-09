@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-list.component.scss']
 })
 export class ProductListComponent {
-
+product = [{
+ id : 1,
+  name:"nike running shoe"
+}]
 }
