@@ -10,12 +10,13 @@ import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
 import {FormsModule} from "@angular/forms";
 import { ProductListComponent } from './container/product-list/product-list.component';
+import { SearchItemComponent } from './container/search-item/search-item.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,MainComponent, NavigationComponent, ContentComponent, TestComponent, HeaderComponent, TopMenuComponent, MainMenuComponent, ProductListComponent
+    AppComponent,MainComponent, NavigationComponent, ContentComponent, TestComponent, HeaderComponent, TopMenuComponent, MainMenuComponent, ProductListComponent, SearchItemComponent
   ],
   imports: [
     BrowserModule,
